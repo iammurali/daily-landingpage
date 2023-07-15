@@ -35,7 +35,7 @@ const ThreeColumnLayout = () => {
     [".secondExchangeCircle", { scaleX: [1.2, 1], scaleY: [1.2, 1], opacity: [1, 0.5] }, { duration: 0.5 }],
   ]
   useEffect(() => {
-    animate(seq, { duration: 7, repeat: Infinity, repeatType: "loop" });
+    animate(seq, { duration: 8, repeat: Infinity, repeatType: "loop" });
   },)
 
   return (
