@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.circle-1 {
+  top: 50px;
+  left: 50px;
+  background-color: #ff0000;
+}
+
+.circle-2 {
+  top: 100px;
+  left: 100px;
+  background-color: #00ff00;
+}
+
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent #000000;
+  transform-origin: right center;
+  animation: arrow-animation 1s linear infinite;
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translateX(0) scale(1);
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  50% {
+    transform: translateX(100px) scale(1);
+  }
+  100% {
+    transform: translateX(100px) scale(0);
+  }
 }
