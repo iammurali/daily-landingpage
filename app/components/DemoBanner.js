@@ -1,10 +1,22 @@
+'use client'
 import Link from 'next/link';
 import heroImage from 'public/images/heroimage.png'
 import PhoneDemo from 'public/images/phonedemo.png'
 import Image from 'next/image';
+import { useState } from 'react';
+import { EmailDialog } from './Navbar';
 
 
 const DemoBanner = () => {
+    let [isOpen, setIsOpen] = useState(false)
+
+    function closeModal() {
+        setIsOpen(false)
+    }
+
+    function openModal() {
+        setIsOpen(true)
+    }
     return (
         <section className="px-5 py-10 md:px-20 md:py-6 text-center  ">
 
@@ -14,17 +26,18 @@ const DemoBanner = () => {
                         <h4 className="text-lg font-bold mb-8">One App,<br />
                             all crypto wallets/accounts
                         </h4>
-                        <Link legacyBehavior href="/demo">
+                        <div onClick={() => openModal()}>
                             <a className="text-white px-7 py-3 rounded-3xl bg-dailycolor font-semibold">
                                 Get a Demo
                             </a>
-                        </Link>
+                        </div>
                     </div>
                     <div className="md:w-1/2">
                         <Image src={PhoneDemo} alt='phone demo image' className='p-0' />
                     </div>
                 </div>
             </div>
+            {EmailDialog(isOpen, closeModal)}
 
         </section>
     );

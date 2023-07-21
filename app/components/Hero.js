@@ -1,11 +1,23 @@
+'use client'
 import Link from 'next/link';
 import heroImage from 'public/images/heroimage.png'
 import Image from 'next/image';
 import HeroAnimation from './HeroAnimation/HeroAnimation'
+import { useState } from 'react';
+import { EmailDialog } from './Navbar';
 
 
 
 const HeroSection = () => {
+    let [isOpen, setIsOpen] = useState(false)
+
+    function closeModal() {
+        setIsOpen(false)
+    }
+
+    function openModal() {
+        setIsOpen(true)
+    }
     return (
         <section className="px-8 md:px-24 pb-0 md:pb-28">
             <div className="flex flex-col md:flex-row md:justify-between ">
@@ -16,16 +28,18 @@ const HeroSection = () => {
                     <p className="md:w-3/4 text-base md:text-lg font-normal pb-8">
                         Daily is creating a world-leading crypto payment and data network to help you make payments, cut costs, and onboard more customers.
                     </p>
-                    <Link legacyBehavior href="">
+                    <div onClick={() => openModal()}>
                         <a className="px-6 py-3 md:px-8 md:py-4 rounded-full border-2 border-dailycolor text-dailycolor font-semibold">
                             Get a Demo
                         </a>
-                    </Link>
+                    </div>
                 </div>
                 <div className='md:w-1/2 flex justify-center md:justify-end items-start pt-10 md:pt-0 lg:pt-0'>
                     <HeroAnimation />
                 </div>
             </div>
+            {EmailDialog(isOpen, closeModal)}
+
         </section>
     );
 };

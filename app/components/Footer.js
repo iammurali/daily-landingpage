@@ -7,9 +7,9 @@ const Footer = () => {
           <div className="hidden md:block md:w-1/2 text-left">
             <h4 className="text-4xl font-bold mb-9">Daily</h4>
             <ul>
-              <li className="mb-7 text-lg">Home</li>
-              <li className="mb-7 text-lg">Who We Are?</li>
-              <li className="mb-7 text-lg">More</li>
+              <li className="mb-7 text-lg"><a href="/">Home</a></li>
+              {/* <li className="mb-7 text-lg">Who We Are?</li>
+              <li className="mb-7 text-lg">More</li> */}
             </ul>
           </div>
           <div className="md:w-1/2 text-right">

@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@motionone/utils": "^10.15.1",
     "autoprefixer": "10.4.14",
     "eslint": "8.44.0",
