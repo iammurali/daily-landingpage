@@ -110,15 +110,7 @@ export function EmailDialog(isOpen, closeModal) {
               class="button"
               value="Subscribe"
             />
-            <p class="brandingLogo" style="margin: 0px auto">
-              <a
-                href="http://eepurl.com/ikHjG5"
-                title="Mailchimp - email marketing made easy and fun"
-                ><img
-                  src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_light_dtp.svg"
-                  alt="referral badge"
-              /></a>
-            </p>
+           
           </div>
         </div>
       </div>

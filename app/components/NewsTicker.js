@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const marqueeVariants = {
     animate: {
-        x: [0, -700],
+        x: [0, -800],
         transition: {
             x: {
                 repeat: Infinity,
@@ -22,7 +22,10 @@ const NewsTicker = ({ companies }) => {
 
     return (
         <section className="pt-16">
-            <ul className="whitespace-nowrap inline-block overflow-x-hidden w-screen py-8 bg-neutral-100 ">
+            <div className="bg-[#FAFAFA]">
+
+            <div className="pl-8 pt-4 text-">soon to be partnering with..</div>
+            <ul className="whitespace-nowrap inline-block overflow-x-hidden w-screen py-8  ">
                 {companies.map((company, i) => <motion.li
                     variants={marqueeVariants}
                     animate="animate"
@@ -31,6 +34,7 @@ const NewsTicker = ({ companies }) => {
                 </motion.li>)}
 
             </ul>
+            </div>
         </section>
     )
 }
