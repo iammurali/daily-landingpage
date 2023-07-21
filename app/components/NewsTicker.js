@@ -24,7 +24,7 @@ const NewsTicker = ({ companies }) => {
         <section className="pt-16">
             <div className="bg-[#FAFAFA]">
 
-            <div className="pl-8 pt-4 text-">soon to be partnering with..</div>
+            <div className="pl-8 pt-4 text-2xl text-[#D6D6D6]">soon to be partnering with..</div>
             <ul className="whitespace-nowrap inline-block overflow-x-hidden w-screen py-8  ">
                 {companies.map((company, i) => <motion.li
                     variants={marqueeVariants}
