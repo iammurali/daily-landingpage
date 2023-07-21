@@ -5,17 +5,17 @@ import Image from 'next/image';
 import coinbaseLogo from '../../../public/images/coinlogo.png';
 import ledgerLogo from '../../../public/images/ledgerlogo.png';
 import metamaskLogo from '../../../public/images/metamasklogo.png';
-import exhange1 from '../../../public/images/exchange/exhange1.png';
-import exhange2 from '../../../public/images/exchange/exhange2.png';
-import exhange3 from '../../../public/images/exchange/exhange3.png';
-import exhange4 from '../../../public/images/exchange/exhange4.png';
-import exhange5 from '../../../public/images/exchange/exhange5.png';
-import exhange6 from '../../../public/images/exchange/exhange6.png';
-import exhange7 from '../../../public/images/exchange/exhange7.png';
-import exhange8 from '../../../public/images/exchange/exhange8.png';
-import exhange9 from '../../../public/images/exchange/exhange9.png';
-import exhange10 from '../../../public/images/exchange/exhange10.png';
-import exhange11 from '../../../public/images/exchange/exhange11.png';
+import exhange1 from '../../../public/images/exhange1/exchange1.png';
+import exhange2 from '../../../public/images/exhange1/exchange2.png';
+import exhange3 from '../../../public/images/exhange1/exchange3.png';
+import exhange4 from '../../../public/images/exhange1/exchange4.png';
+import exhange5 from '../../../public/images/exhange1/exchange5.png';
+import exhange6 from '../../../public/images/exhange1/exchange6.png';
+import exhange7 from '../../../public/images/exhange1/exchange7.png';
+import exhange8 from '../../../public/images/exhange1/exchange8.png';
+import exhange9 from '../../../public/images/exhange1/exchange9.png';
+import exhange10 from '../../../public/images/exhange1/exchange10.png';
+import exhange11 from '../../../public/images/exhange1/exchange11.png';
 
 
 
