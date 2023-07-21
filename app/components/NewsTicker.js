@@ -27,7 +27,7 @@ const NewsTicker = ({ companies }) => {
                     variants={marqueeVariants}
                     animate="animate"
                     key={i} className="inline-block align-middle px-16">
-                    <Image src={company} alt={'company name'} height={100} width={250} />
+                    <Image src={company} alt={'company name'} height={100} width={200} />
                 </motion.li>)}
 
             </ul>
