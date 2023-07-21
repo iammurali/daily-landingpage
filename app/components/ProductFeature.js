@@ -18,9 +18,9 @@ const ProductFeature = () => {
         video.play(); // Autoplay the video when component mounts
     }, []);
     return (
-        <section className="px-20 py-20 flex items-center justify-center">
+        <section className="sm:h-full px-8 py-0 md:px-20 md:py-20 flex items-center justify-center">
             <div className="flex flex-col md:flex-row md:justify-between">
-                <div className='md:w-1/2 flex justify-center md:justify-end items-center pr-4'>
+                <div className='md:w-1/2 flex justify-center md:justify-end items-center md:pr-4'>
                     {/* <Image
                         alt={'Hero Image'}
                         src={heroImage}
@@ -42,7 +42,7 @@ const ProductFeature = () => {
                         url="https://www.youtube.com/embed/Te_DTmOt4Xw"
                     /> */}
                 </div>
-                <div className='md:w-1/2  h-[36rem] overflow-hidden pl-4'>
+                <div className='md:w-1/2 md:h-[36rem] overflow-hidden md:pl-4'>
                     <FeatureAnimation />
                 </div>
             </div>

@@ -5,6 +5,20 @@ import Image from 'next/image';
 import coinbaseLogo from '../../../public/images/coinlogo.png';
 import ledgerLogo from '../../../public/images/ledgerlogo.png';
 import metamaskLogo from '../../../public/images/metamasklogo.png';
+import exhange1 from '../../../public/images/exchange/exhange1.png';
+import exhange2 from '../../../public/images/exchange/exhange2.png';
+import exhange3 from '../../../public/images/exchange/exhange3.png';
+import exhange4 from '../../../public/images/exchange/exhange4.png';
+import exhange5 from '../../../public/images/exchange/exhange5.png';
+import exhange6 from '../../../public/images/exchange/exhange6.png';
+import exhange7 from '../../../public/images/exchange/exhange7.png';
+import exhange8 from '../../../public/images/exchange/exhange8.png';
+import exhange9 from '../../../public/images/exchange/exhange9.png';
+import exhange10 from '../../../public/images/exchange/exhange10.png';
+import exhange11 from '../../../public/images/exchange/exhange11.png';
+
+
+
 
 const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
     return (
@@ -13,10 +27,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={coinbaseLogo}
+                                    src={exhange1}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>
@@ -25,10 +39,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     <td className="p-2">
                         <div className="flex justify-center items-center">
                             <motion.div
-                                className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full exchangeCircle flex justify-center items-center bg-white opacity-50`}>
+                                className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full exchangeCircle flex justify-center items-center bg-white opacity-50`}>
                                 <Image
                                     alt={'logo'}
-                                    src={ledgerLogo}
+                                    src={exhange2}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </motion.div>
@@ -36,10 +50,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={metamaskLogo}
+                                    src={exhange3}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10 p-1'
                                 />
                             </div>
@@ -47,10 +61,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={metamaskLogo}
+                                    src={exhange4}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10 p-1'
                                 />
                             </div>
@@ -60,10 +74,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center ${visibleCircle == '5' ? 'opacity-0' : ''}`}>
+                            <div className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center ${visibleCircle == '5' ? 'opacity-0' : ''}`}>
                                 <Image
                                     alt={'logo'}
-                                    src={ledgerLogo}
+                                    src={exhange5}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>
@@ -71,10 +85,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center secondExchangeCircle">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center secondExchangeCircle">
                                 <Image
                                     alt={'logo'}
-                                    src={coinbaseLogo}
+                                    src={exhange6}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>
@@ -82,10 +96,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={metamaskLogo}
+                                    src={exhange7}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10 p-1'
                                 />
                             </div>
@@ -93,7 +107,13 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full ${glowingCircle == '8' ? 'bg-white opacity-50' : ' bg-[#94a3b8]'} ${visibleCircle == '8' ? 'opacity-0' : ''}`}></div>
+                            <div className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full opacity-50 ${glowingCircle == '8' ? 'bg-white opacity-50' : ' bg-white'} ${visibleCircle == '8' ? 'md:opacity-0' : ''}`}>
+                            <Image
+                                    alt={'logo'}
+                                    src={exhange8}
+                                    className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
+                                />
+                            </div>
                             <ExchangeArrow />
 
                         </div>
@@ -102,10 +122,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={coinbaseLogo}
+                                    src={exhange9}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>
@@ -113,10 +133,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={metamaskLogo}
+                                    src={exhange10}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10 p-1'
                                 />
                             </div>
@@ -124,10 +144,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={ledgerLogo}
+                                    src={exhange11}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>
@@ -135,10 +155,10 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
                                 <Image
                                     alt={'logo'}
-                                    src={ledgerLogo}
+                                    src={exhange8}
                                     className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
                                 />
                             </div>

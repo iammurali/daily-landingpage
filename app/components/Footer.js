@@ -4,10 +4,10 @@ const Footer = () => {
     return (
       <footer className="bg-[#F6F6F6] py-6 px-20">
         <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
-          <div className="md:w-1/2 text-left">
+          <div className="hidden md:block md:w-1/2 text-left">
             <h4 className="text-4xl font-bold mb-9">Daily</h4>
             <ul>
-              <li className="mb-7 text-lg">Product</li>
+              <li className="mb-7 text-lg">Home</li>
               <li className="mb-7 text-lg">Who We Are?</li>
               <li className="mb-7 text-lg">More</li>
             </ul>

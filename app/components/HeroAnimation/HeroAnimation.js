@@ -11,7 +11,8 @@ function HeroAnimation() {
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             width="45rem"
-            height="35rem"
+            // height="35rem"
+            className="h-80 md:h-[35rem]"
             fill="none"
             viewBox="0 0 532 411"
         >

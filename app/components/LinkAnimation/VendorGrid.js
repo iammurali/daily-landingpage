@@ -5,6 +5,16 @@ import Image from 'next/image';
 import UberLogo from '../../../public/images/uberlogo.png';
 import TargetLogo from '../../../public/images/targetlogo.png';
 import StarbuckLogo from '../../../public/images/starbuckslogo.png';
+import vendor1 from '../../../public/images/vendor/vendor1.png';
+import vendor2 from '../../../public/images/vendor/vendor2.png';
+import vendor3 from '../../../public/images/vendor/vendor3.png';
+import vendor4 from '../../../public/images/vendor/vendor4.png';
+import vendor5 from '../../../public/images/vendor/vendor5.png';
+import vendor6 from '../../../public/images/vendor/vendor6.png';
+import vendor7 from '../../../public/images/vendor/vendor7.png';
+import vendor8 from '../../../public/images/vendor/vendor8.png';
+import vendor9 from '../../../public/images/vendor/vendor9.png';
+import vendor10 from '../../../public/images/vendor/vendor10.png';
 
 const Vendor = ({ glowingCircle, visibleCircle }) => {
     return (
@@ -13,8 +23,8 @@ const Vendor = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={UberLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor1} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
                             </div>
                         </div>
                     </td>
@@ -22,23 +32,23 @@ const Vendor = ({ glowingCircle, visibleCircle }) => {
                         <div className="flex justify-center items-center">
                             <motion.div
 
-                                className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full ${glowingCircle == '2' ? 'bg-white' : ' bg-white'} opacity-50 flex justify-center items-center`}>
-                                <Image alt={'logo'} src={TargetLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                                className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full ${glowingCircle == '2' ? 'bg-white' : ' bg-white'} opacity-50 flex justify-center items-center`}>
+                                <Image alt={'logo'} src={vendor2} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
 
                             </motion.div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={StarbuckLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor3} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
                             </div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={TargetLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor4} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
                             </div>
                         </div>
                     </td>
@@ -46,30 +56,33 @@ const Vendor = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-[#94a3b8] ${visibleCircle == '5' ? 'opacity-0' : ''}`}></div>
+                            <div className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full opacity-50 bg-white ${visibleCircle == '5' ? 'md:opacity-0' : ''}`}>
+                            <Image alt={'logo'} src={vendor5} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            </div>
+
                             <VendorArrow />
 
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={StarbuckLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor6} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
                             </div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={UberLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor7} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
 
                             </div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className={`h-12 w-12 lg:h-14 lg:w-14 rounded-full ${glowingCircle == '8' ? 'bg-white' : ' bg-white'} ${visibleCircle == '8' ? 'opacity-0' : ''} opacity-50 flex justify-center items-center vendorCircle`}>
-                                <Image alt={'logo'} src={TargetLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
+                            <div className={`h-10 w-10 lg:h-14 lg:w-14 rounded-full ${glowingCircle == '8' ? 'bg-white' : ' bg-white'} ${visibleCircle == '8' ? 'opacity-0' : ''} opacity-50 flex justify-center items-center vendorCircle`}>
+                                <Image alt={'logo'} src={vendor8} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' />
 
                             </div>
                         </div>
@@ -78,26 +91,26 @@ const Vendor = ({ glowingCircle, visibleCircle }) => {
                 <tr>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={UberLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor9} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={TargetLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor10} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center secondVendorCircle">
-                                <Image alt={'logo'} src={StarbuckLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center secondVendorCircle">
+                                <Image alt={'logo'} src={vendor2} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
                         </div>
                     </td>
                     <td className="p-2">
                         <div className="flex justify-center items-center">
-                            <div className="h-12 w-12 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
-                                <Image alt={'logo'} src={UberLogo} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
+                            <div className="h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-white opacity-50 flex justify-center items-center">
+                                <Image alt={'logo'} src={vendor6} className='rounded-full h-10 w-10 lg:h-10 lg:w-10 ' /></div>
                         </div>
                     </td>
                 </tr>
