@@ -22,7 +22,7 @@ const HeroSection = () => {
         <section className="px-8 md:px-24 pb-0 md:pb-28">
             <div className="flex flex-col md:flex-row md:justify-between ">
                 <div className='sm:pb-16 md:w-1/2 pt-8 md:py-28'>
-                    <h1 className="md:w-4/5  text-3xl leading-[2.5rem]  md:text-[3.25rem] md:leading-[4.25rem] font-bold pb-4">
+                    <h1 className="md:w-4/5  text-3xl leading-[2.5rem]  md:text-[3rem] md:leading-[4rem] font-bold pb-4">
                         {`Do what's important, we'll handle your payments daily`}
                     </h1>
                     <p className="md:w-3/4 text-base md:text-lg font-normal pb-8">
