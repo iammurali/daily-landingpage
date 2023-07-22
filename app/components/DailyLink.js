@@ -11,7 +11,7 @@ const DailyLink = () => {
         <section className="bg-black px-8 py-8 md:px-40 md:py-20 text-center lg:h-screen flex justify-center items-center flex-col">
 
             <span className='text-white text-5xl md:text-7xl font-bold inline-block pt-8 relative'>
-                <span className="absolute top-5 -right-28">
+                <span className="absolute top-5 -right-52">
 
                     <Graffiti2 />
                 </span>
