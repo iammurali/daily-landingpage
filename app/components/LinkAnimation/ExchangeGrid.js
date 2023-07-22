@@ -43,7 +43,7 @@ const ExchangeGrid = ({ glowingCircle, visibleCircle }) => {
                                 <Image
                                     alt={'logo'}
                                     src={exhange10}
-                                    className='rounded-full h-10 w-10 lg:h-10 lg:w-10'
+                                    className='rounded-full h-10 w-10 lg:h-8 lg:w-8'
                                 />
                             </motion.div>
                         </div>
