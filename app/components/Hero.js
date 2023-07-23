@@ -19,7 +19,7 @@ const HeroSection = () => {
         setIsOpen(true)
     }
     return (
-        <section className="px-8 md:px-24 pb-0 md:pb-28">
+        <section className="px-8 md:px-24 pb-0 md:pb-16">
             <div className="flex flex-col md:flex-row md:justify-between ">
                 <div className='sm:pb-16 md:w-1/2 pt-8 md:py-28'>
                     <h1  className="md:w-4/5  text-3xl leading-[2.5rem]  md:text-[3rem] md:leading-[4rem] font-bold pb-4">
