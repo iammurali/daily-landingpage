@@ -21,8 +21,8 @@ const AnimationExample = () => {
             <AnimatePresence>
                 <motion.div
                     key="firstComponent"
-                    initial={{ opacity: 1, y: 0 }}
-                    animate={{ opacity: showSecondComponent ? 0.5 : 1, y: showSecondComponent ? -350 : 70 }}
+                    initial={{ opacity: 1, y: 70 }}
+                    animate={{ opacity: showSecondComponent ? 0 : 1, y: showSecondComponent ? -350 : 70 }}
                     exit={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className='p-5 lg:w-1/2'
@@ -39,11 +39,11 @@ const AnimationExample = () => {
 
                 <motion.div
                     key="secondComponent"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: showSecondComponent ? 1 : 0.5, y: showSecondComponent ? -350 : 90 }}
-                    exit={{ opacity: 0, y: 50 }}
+                    initial={{ opacity: 0, y: 70 }}
+                    animate={{ opacity: showSecondComponent ? 1 : 0, y: showSecondComponent ? -350 : 70 }}
+                    exit={{ opacity: 0, y: 70 }}
                     transition={{ duration: 0.5 }}
-                    className='p-5 md:w-3/4 lg:w-1/2'
+                    className='p-5 mt-16 md:w-4/5 lg:w-1/2'
 
                     style={{
                         // backgroundColor: 'lightblue',
@@ -62,7 +62,7 @@ const AnimationExample = () => {
                 <motion.div
                     key="firstComponent"
                     initial={{ opacity: 1, y: 0 }}
-                    animate={{ opacity: showSecondComponent ? 0.5 : 1, y: showSecondComponent ? -350 : 70 }}
+                    animate={{ opacity: showSecondComponent ? 0 : 1, y: showSecondComponent ? -350 : 70 }}
                     exit={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className='p-5 lg:w-1/2'
@@ -80,7 +80,7 @@ const AnimationExample = () => {
                 <motion.div
                     key="secondComponent"
                     initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: showSecondComponent ? 1 : 0.5, y: showSecondComponent ? -250 : 90 }}
+                    animate={{ opacity: showSecondComponent ? 1 : 0, y: showSecondComponent ? -250 : 90 }}
                     exit={{ opacity: 0, y: 50 }}
                     transition={{ duration: 0.5 }}
                     className='p-5 md:w-3/4 lg:w-1/2'
